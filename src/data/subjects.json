@@ -1,0 +1,39 @@
+{
+  "subjects": [
+    {
+      "id": 1,
+      "title": "IT Frontend",
+      "icon": "/assets/subject-icons.svg#it-icon",
+      "description": "4 kurs",
+      "slug": "it"
+    },
+    {
+      "id": 2,
+      "title": "Ingliz tili",
+      "icon": "/assets/subject-icons.svg#english-icon",
+      "description": "6 daraja",
+      "slug": "english"
+    },
+    {
+      "id": 3,
+      "title": "Arab tili",
+      "icon": "/assets/subject-icons.svg#arabic-icon",
+      "description": "3 daraja",
+      "slug": "arabic"
+    },
+    {
+      "id": 4,
+      "title": "Matematika",
+      "icon": "/assets/subject-icons.svg#math-icon",
+      "description": "5 daraja",
+      "slug": "math"
+    },
+    {
+      "id": 5,
+      "title": "Rus tili",
+      "icon": "/assets/subject-icons.svg#russian-icon",
+      "description": "3 daraja",
+      "slug": "russian"
+    }
+  ]
+}

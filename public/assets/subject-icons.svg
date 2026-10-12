@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" style="display:none">
+
+  <!-- 1. ENGLISH — UK FLAG -->
+  <symbol id="english-icon" viewBox="0 0 60 60">
+    <defs>
+      <clipPath id="uk-clip">
+        <circle cx="30" cy="30" r="27"/>
+      </clipPath>
+    </defs>
+
+    <g clip-path="url(#uk-clip)">
+      <rect width="60" height="60" fill="#012169"/>
+      <path d="M0 0 L60 60 M60 0 L0 60"
+            stroke="#fff" stroke-width="13"/>
+      <path d="M0 0 L60 60 M60 0 L0 60"
+            stroke="#C8102E" stroke-width="6"/>
+      <path d="M30 0 V60 M0 30 H60"
+            stroke="#fff" stroke-width="19"/>
+      <path d="M30 0 V60 M0 30 H60"
+            stroke="#C8102E" stroke-width="11"/>
+    </g>
+
+    <circle cx="30" cy="30" r="27"
+            fill="none" stroke="#e2e8f0" stroke-width="2"/>
+  </symbol>
+
+  <!-- 2. IT — CODE ICON -->
+  <symbol id="it-icon" viewBox="0 0 60 60">
+    <rect x="3" y="3" width="54" height="54" rx="16"
+          fill="#eef2ff"/>
+
+    <path d="M22 20 L12 30 L22 40"
+          fill="none" stroke="#4f46e5"
+          stroke-width="4" stroke-linecap="round"
+          stroke-linejoin="round"/>
+
+    <path d="M38 20 L48 30 L38 40"
+          fill="none" stroke="#4f46e5"
+          stroke-width="4" stroke-linecap="round"
+          stroke-linejoin="round"/>
+
+    <path d="M34 16 L26 44"
+          fill="none" stroke="#7c3aed"
+          stroke-width="4" stroke-linecap="round"/>
+  </symbol>
+
+  <!-- 3. RUSSIAN — RUSSIA FLAG -->
+  <symbol id="russian-icon" viewBox="0 0 60 60">
+    <defs>
+      <clipPath id="ru-clip">
+        <circle cx="30" cy="30" r="27"/>
+      </clipPath>
+    </defs>
+
+    <g clip-path="url(#ru-clip)">
+      <rect x="3" y="3" width="54" height="18" fill="#fff"/>
+      <rect x="3" y="21" width="54" height="18" fill="#0039A6"/>
+      <rect x="3" y="39" width="54" height="18" fill="#D52B1E"/>
+    </g>
+
+    <circle cx="30" cy="30" r="27"
+            fill="none" stroke="#e2e8f0" stroke-width="2"/>
+  </symbol>
+
+  <!-- 4. MATHEMATICS — CALCULATOR -->
+  <symbol id="math-icon" viewBox="0 0 60 60">
+    <rect x="10" y="4" width="40" height="52" rx="9"
+          fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+
+    <rect x="17" y="11" width="26" height="11" rx="3"
+          fill="#fff"/>
+
+    <g fill="#16a34a">
+      <rect x="17" y="28" width="7" height="7" rx="2"/>
+      <rect x="27" y="28" width="7" height="7" rx="2"/>
+      <rect x="37" y="28" width="7" height="7" rx="2"/>
+
+      <rect x="17" y="38" width="7" height="7" rx="2"/>
+      <rect x="27" y="38" width="7" height="7" rx="2"/>
+      <rect x="37" y="38" width="7" height="7" rx="2"/>
+
+      <rect x="17" y="48" width="7" height="4" rx="1"/>
+      <rect x="27" y="48" width="17" height="4" rx="1"/>
+    </g>
+  </symbol>
+
+  <!-- 5. ARABIC — SAUDI ARABIA FLAG -->
+  <symbol id="arabic-icon" viewBox="0 0 60 60">
+    <defs>
+      <clipPath id="sa-clip">
+        <circle cx="30" cy="30" r="27"/>
+      </clipPath>
+    </defs>
+
+    <g clip-path="url(#sa-clip)">
+      <rect x="3" y="3" width="54" height="54" fill="#006C35"/>
+
+      <g fill="#fff">
+        <rect x="13" y="20" width="34" height="3" rx="1.5"/>
+        <rect x="15" y="25" width="30" height="2" rx="1"/>
+        <rect x="18" y="29" width="24" height="2" rx="1"/>
+      </g>
+
+      <path d="M16 38 H42"
+            stroke="#fff" stroke-width="3"
+            stroke-linecap="round"/>
+
+      <path d="M39 35 L45 38 L39 41"
+            fill="none" stroke="#fff" stroke-width="2.5"
+            stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+
+    <circle cx="30" cy="30" r="27"
+            fill="none" stroke="#e2e8f0" stroke-width="2"/>
+  </symbol>
+
+</svg>

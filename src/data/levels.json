@@ -1,0 +1,121 @@
+{
+  "it": [
+    {
+      "id": 1,
+      "title": "HTML",
+      "description": "Web sahifa tuzilishini o‘rganish",
+      "icon": "</>"
+    },
+    {
+      "id": 2,
+      "title": "CSS",
+      "description": "Web sahifalarni bezash",
+      "icon": "{}"
+    },
+    {
+      "id": 3,
+      "title": "JavaScript",
+      "description": "Dasturlashni o‘rganish",
+      "icon": "JS"
+    },
+    {
+      "id": 4,
+      "title": "React",
+      "description": "Zamonaviy web ilovalar yaratish",
+      "icon": "⚛"
+    }
+  ],
+  "english": [
+    {
+      "id": 1,
+      "title": "Beginner",
+      "description": "Ingliz tilini endi boshlayotganlar"
+    },
+    {
+      "id": 2,
+      "title": "Elementary",
+      "description": "Boshlang‘ich bilimlarni mustahkamlash"
+    },
+    {
+      "id": 3,
+      "title": "Pre-Intermediate",
+      "description": "Bilimlarni keyingi bosqichga olib chiqish"
+    },
+    {
+      "id": 4,
+      "title": "Intermediate",
+      "description": "O‘rta darajadagi bilimlarni tekshirish"
+    },
+    {
+      "id": 5,
+      "title": "Upper-Intermediate",
+      "description": "Yuqori o‘rta darajadagi testlar"
+    },
+    {
+      "id": 6,
+      "title": "Advanced",
+      "description": "Yuqori darajadagi testlar"
+    }
+  ],
+  "arabic": [
+    {
+      "id": 1,
+      "title": "Boshlang‘ich",
+      "description": "Arab tili asoslari"
+    },
+    {
+      "id": 2,
+      "title": "O‘rta",
+      "description": "Grammatika va lug‘at"
+    },
+    {
+      "id": 3,
+      "title": "Yuqori",
+      "description": "Murakkabroq testlar"
+    }
+  ],
+  "math": [
+    {
+      "id": 1,
+      "title": "1-daraja",
+      "description": "Asosiy matematik amallar"
+    },
+    {
+      "id": 2,
+      "title": "2-daraja",
+      "description": "Kasrlar va foizlar"
+    },
+    {
+      "id": 3,
+      "title": "3-daraja",
+      "description": "Tenglamalar"
+    },
+    {
+      "id": 4,
+      "title": "4-daraja",
+      "description": "Geometriya va masalalar"
+    },
+    {
+      "id": 5,
+      "title": "5-daraja",
+      "description": "Murakkab matematik masalalar"
+    }
+  ],
+  "russian": [
+    {
+      "id": 1,
+      "title": "Boshlang‘ich",
+      "description": "Rus tili asoslari"
+    },
+    {
+      "id": 2,
+      "title": "O‘rta",
+      "description": "Grammatika va lug‘at"
+    },
+    {
+      "id": 3,
+      "title": "Yuqori",
+      "description": "Murakkabroq testlar"
+    }
+  ]
+}

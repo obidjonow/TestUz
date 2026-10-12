@@ -1,0 +1,171 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 500" fill="none">
+  <defs>
+    <linearGradient id="bookGradient" x1="180" y1="240" x2="420" y2="390" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7468FF"/>
+      <stop offset="1" stop-color="#5145CD"/>
+    </linearGradient>
+
+    <linearGradient id="blueGradient" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#6C8CFF"/>
+      <stop offset="1" stop-color="#4263EB"/>
+    </linearGradient>
+
+    <linearGradient id="greenGradient" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#55D6A0"/>
+      <stop offset="1" stop-color="#20A875"/>
+    </linearGradient>
+
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="170%">
+      <feDropShadow dx="0" dy="9" stdDeviation="10" flood-color="#30376B" flood-opacity=".12"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <circle cx="300" cy="250" r="190" fill="#F0F1FF"/>
+  <circle cx="300" cy="250" r="150" fill="#F8F8FF"/>
+
+  <!-- Decorative dots -->
+  <g fill="#A5ACFF">
+    <circle cx="105" cy="170" r="5"/>
+    <circle cx="490" cy="185" r="5"/>
+    <circle cx="460" cy="345" r="4"/>
+    <circle cx="145" cy="355" r="4"/>
+    <circle cx="360" cy="75" r="4"/>
+  </g>
+
+  <!-- Floating stars -->
+  <path d="M160 110L166 126L182 132L166 138L160 154L154 138L138 132L154 126Z"
+        fill="#FFB547">
+    <animateTransform attributeName="transform" type="rotate"
+      values="0 160 132;12 160 132;0 160 132" dur="4s" repeatCount="indefinite"/>
+  </path>
+
+  <path d="M455 105L460 117L472 122L460 127L455 139L450 127L438 122L450 117Z"
+        fill="#FFB547">
+    <animateTransform attributeName="transform" type="rotate"
+      values="0 455 122;-12 455 122;0 455 122" dur="3.5s" repeatCount="indefinite"/>
+  </path>
+
+  <!-- English course card -->
+  <g filter="url(#shadow)">
+    <rect x="75" y="185" width="105" height="105" rx="24" fill="white"/>
+    <circle cx="127" cy="230" r="28" fill="#EAF0FF"/>
+    <text x="127" y="240" text-anchor="middle"
+      font-family="Arial,sans-serif" font-size="34" font-weight="bold"
+      fill="#4263EB">A</text>
+    <text x="127" y="273" text-anchor="middle"
+      font-family="Arial,sans-serif" font-size="12" font-weight="600"
+      fill="#525A75">ENGLISH</text>
+  </g>
+
+  <!-- Math course card -->
+  <g filter="url(#shadow)">
+    <rect x="420" y="165" width="105" height="105" rx="24" fill="white"/>
+    <circle cx="472" cy="210" r="28" fill="#FFF0DB"/>
+    <text x="472" y="220" text-anchor="middle"
+      font-family="Arial,sans-serif" font-size="32" font-weight="bold"
+      fill="#F59E0B">π</text>
+    <text x="472" y="253" text-anchor="middle"
+      font-family="Arial,sans-serif" font-size="12" font-weight="600"
+      fill="#525A75">MATH</text>
+  </g>
+
+  <!-- Arabic course card -->
+  <g filter="url(#shadow)">
+    <rect x="82" y="315" width="105" height="105" rx="24" fill="white"/>
+    <circle cx="134" cy="360" r="28" fill="#DDF8EB"/>
+    <text x="134" y="372" text-anchor="middle"
+      font-family="Arial,sans-serif" font-size="32" font-weight="bold"
+      fill="#159567">ع</text>
+    <text x="134" y="403" text-anchor="middle"
+      font-family="Arial,sans-serif" font-size="12" font-weight="600"
+      fill="#525A75">ARABIC</text>
+  </g>
+
+  <!-- Russian course card -->
+  <g filter="url(#shadow)">
+    <rect x="414" y="310" width="105" height="105" rx="24" fill="white"/>
+    <circle cx="466" cy="355" r="28" fill="#FFE7EA"/>
+    <text x="466" y="366" text-anchor="middle"
+      font-family="Arial,sans-serif" font-size="29" font-weight="bold"
+      fill="#E5485D">Я</text>
+    <text x="466" y="398" text-anchor="middle"
+      font-family="Arial,sans-serif" font-size="12" font-weight="600"
+      fill="#525A75">РУССКИЙ</text>
+  </g>
+
+  <!-- Main floating illustration -->
+  <g>
+    <animateTransform attributeName="transform" type="translate"
+      values="0 0;0 -9;0 0" dur="4s" repeatCount="indefinite"/>
+
+    <!-- Book pages -->
+    <path d="M188 264C224 246 266 252 300 273V365C264 344 224 338 188 356V264Z"
+      fill="white" stroke="#D8D9F5" stroke-width="2"/>
+
+    <path d="M300 273C334 252 376 246 412 264V356C376 338 336 344 300 365V273Z"
+      fill="white" stroke="#D8D9F5" stroke-width="2"/>
+
+    <!-- Book page lines -->
+    <g stroke="#D4D7EF" stroke-width="4" stroke-linecap="round">
+      <path d="M207 284L269 280"/>
+      <path d="M207 300L269 296"/>
+      <path d="M207 316L269 312"/>
+      <path d="M207 332L258 329"/>
+
+      <path d="M331 280L393 284"/>
+      <path d="M331 296L393 300"/>
+      <path d="M331 312L393 316"/>
+      <path d="M342 329L393 332"/>
+    </g>
+
+    <!-- Book cover -->
+    <path d="M180 354C221 336 263 344 300 367V383C263 360 221 352 180 370V354Z"
+      fill="url(#bookGradient)"/>
+
+    <path d="M300 367C337 344 379 336 420 354V370C379 352 337 360 300 383V367Z"
+      fill="#5B50D6"/>
+
+    <path d="M300 273V367" stroke="#8E85F5" stroke-width="3"/>
+
+    <!-- Pencil -->
+    <g transform="translate(360 195) rotate(38)">
+      <rect x="-7" y="-36" width="14" height="70" rx="4" fill="#FFB547"/>
+      <path d="M-7 -36L0 -49L7 -36Z" fill="#F4C6A5"/>
+      <path d="M-3 -44L0 -49L3 -44Z" fill="#42445A"/>
+      <rect x="-7" y="22" width="14" height="8" fill="#FF8C42"/>
+      <rect x="-7" y="30" width="14" height="5" rx="2" fill="#E6E8F8"/>
+    </g>
+
+    <!-- Graduation cap -->
+    <g transform="translate(300 135)">
+      <path d="M-58 0L0 -27L58 0L0 27Z" fill="#30365F"/>
+      <path d="M-37 14V32C-17 48 17 48 37 32V14L0 31Z" fill="#454B7A"/>
+      <path d="M56 0V28" stroke="#FFB547" stroke-width="4" stroke-linecap="round"/>
+      <circle cx="56" cy="31" r="5" fill="#FFB547"/>
+    </g>
+
+    <!-- IT code mini card -->
+    <g filter="url(#shadow)">
+      <rect x="218" y="190" width="74" height="48" rx="12" fill="url(#blueGradient)"/>
+      <path d="M242 205L233 214L242 223" stroke="white" stroke-width="3"
+        stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M268 205L277 214L268 223" stroke="white" stroke-width="3"
+        stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M259 202L251 226" stroke="#C7D2FE" stroke-width="3"
+        stroke-linecap="round"/>
+    </g>
+
+    <!-- Check mark -->
+    <g transform="translate(388 285)">
+      <circle cx="0" cy="0" r="19" fill="url(#greenGradient)"/>
+      <path d="M-8 0L-2 6L9 -7" stroke="white" stroke-width="4"
+        stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+  </g>
+
+  <!-- Small decorative sparkle -->
+  <path d="M300 414L304 425L315 429L304 433L300 444L296 433L285 429L296 425Z"
+    fill="#FFB547"/>
+
+</svg>

@@ -1,0 +1,491 @@
+{
+  "subjects": [
+    {
+      "id": 1,
+      "title": "Matematika",
+      "icon": "calculator",
+      "questions": [
+        {
+          "id": 1,
+          "question": "25 + 37 nechaga teng?",
+          "options": ["52", "62", "72", "60"],
+          "correctAnswer": 1
+        },
+        {
+          "id": 2,
+          "question": "12 × 8 nechaga teng?",
+          "options": ["86", "92", "96", "108"],
+          "correctAnswer": 2
+        },
+        {
+          "id": 3,
+          "question": "144 ning kvadrat ildizi nechaga teng?",
+          "options": ["10", "11", "12", "14"],
+          "correctAnswer": 2
+        },
+        {
+          "id": 4,
+          "question": "200 ning 25 foizi nechaga teng?",
+          "options": ["25", "40", "50", "75"],
+          "correctAnswer": 2
+        },
+        {
+          "id": 5,
+          "question": "3x = 21 bo'lsa, x nechaga teng?",
+          "options": ["6", "7", "8", "9"],
+          "correctAnswer": 1
+        },
+        {
+          "id": 6,
+          "question": "Uchburchak ichki burchaklari yig'indisi necha gradus?",
+          "options": ["90°", "180°", "270°", "360°"],
+          "correctAnswer": 1
+        },
+        {
+          "id": 7,
+          "question": "15 ning kvadrati nechaga teng?",
+          "options": ["125", "200", "225", "250"],
+          "correctAnswer": 2
+        },
+        {
+          "id": 8,
+          "question": "1 kilometr necha metr?",
+          "options": ["100", "500", "1000", "10000"],
+          "correctAnswer": 2
+        },
+        {
+          "id": 9,
+          "question": "2, 4, 6, 8, ... ketma-ketlikdagi keyingi sonni toping.",
+          "options": ["9", "10", "11", "12"],
+          "correctAnswer": 1
+        },
+        {
+          "id": 10,
+          "question": "To'g'ri to'rtburchakning bo'yi 8 sm, eni 5 sm. Uning yuzi qancha?",
+          "options": ["13 sm²", "26 sm²", "40 sm²", "80 sm²"],
+          "correctAnswer": 2
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Ingliz tili",
+      "icon": "languages",
+      "questions": [
+        {
+          "id": 1,
+          "question": "'Apple' so'zining o'zbekcha tarjimasi qaysi?",
+          "options": ["Nok", "Olma", "Uzum", "Shaftoli"],
+          "correctAnswer": 1
+        },
+        {
+          "id": 2,
+          "question": "Choose the correct form: She ___ a student.",
+          "options": ["am", "are", "is", "be"],
+          "correctAnswer": 2
+        },
+        {
+          "id": 3,
+          "question": "'Book' so'zining ko'plik shakli qaysi?",
+          "options": ["Bookes", "Books", "Bookies", "Book's"],
+          "correctAnswer": 1
+        },
+        {
+          "id": 4,
+          "question": "'Go' fe'lining Past Simple shakli qaysi?",
+          "options": ["Goed", "Gone", "Went", "Going"],
+          "correctAnswer": 2
+        },
+        {
+          "id": 5,
+          "question": "What is the opposite of 'big'?",
+          "options": ["Tall", "Small", "Long", "Wide"],
+          "correctAnswer": 1
+        },
+        {
+          "id": 6,
+          "question": "Choose the correct article: ___ orange.",
+          "options": ["A", "An", "Thee", "No article is possible"],
+          "correctAnswer": 1
+        },
+        {
+          "id": 7,
+          "question": "'Men' so'zining inglizcha birlik shakli qaysi?",
+          "options": ["Man", "Mens", "Mans", "Persones"],
+          "correctAnswer": 0
+        },
+        {
+          "id": 8,
+          "question": "Choose the correct sentence.",
+          "options": [
+            "He play football every day.",
+            "He plays football every day.",
+            "He playing football every day.",
+            "He are play football every day."
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": 9,
+          "question": "'Beautiful' so'zining ma'nosi qaysi?",
+          "options": ["Chiroyli", "Xunuk", "Tez", "Baland"],
+          "correctAnswer": 0
+        },
+        {
+          "id": 10,
+          "question": "Choose the correct form: They ___ playing now.",
+          "options": ["is", "am", "are", "be"],
+          "correctAnswer": 2
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Informatika",
+      "icon": "computer",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Kompyuterning asosiy hisoblash qurilmasi qaysi?",
+          "options": ["Monitor", "Protsessor", "Klaviatura", "Sichqoncha"],
+          "correctAnswer": 1
+        },
+        {
+          "id": 2,
+          "question": "HTML nima uchun ishlatiladi?",
+          "options": [
+            "Veb-sahifa tuzilishini yaratish uchun",
+            "Faqat rasmlarni tahrirlash uchun",
+            "Kompyuterni ta'mirlash uchun",
+            "Antivirus yaratish uchun"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": 3,
+          "question": "1 bayt necha bitdan iborat?",
+          "options": ["2", "4", "8", "16"],
+          "correctAnswer": 2
+        },
+        {
+          "id": 4,
+          "question": "Quyidagilardan qaysi biri operatsion tizim?",
+          "options": ["Windows", "Google Chrome", "Microsoft Word", "Photoshop"],
+          "correctAnswer": 0
+        },
+        {
+          "id": 5,
+          "question": "Internet orqali ma'lumot qidirish uchun qaysi xizmatdan foydalanish mumkin?",
+          "options": ["Google", "Paint", "Calculator", "Notepad"],
+          "correctAnswer": 0
+        },
+        {
+          "id": 6,
+          "question": "CSS ning asosiy vazifasi nima?",
+          "options": [
+            "Ma'lumotlar bazasini yaratish",
+            "Veb-sahifa ko'rinishini bezash",
+            "Operatsion tizim o'rnatish",
+            "Kompyuterni o'chirish"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": 7,
+          "question": "JavaScript asosan nima uchun ishlatiladi?",
+          "options": [
+            "Veb-sahifaga interaktivlik qo'shish",
+            "Faqat matn chop etish",
+            "Monitorni boshqarish",
+            "Kompyuter xotirasini jismonan kengaytirish"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": 8,
+          "question": "Quyidagilardan qaysi biri kiritish qurilmasi?",
+          "options": ["Monitor", "Printer", "Klaviatura", "Kolonka"],
+          "correctAnswer": 2
+        },
+        {
+          "id": 9,
+          "question": "Kompyuterda nusxa olish uchun qaysi tugmalar birikmasi ishlatiladi?",
+          "options": ["Ctrl + V", "Ctrl + C", "Ctrl + X", "Ctrl + Z"],
+          "correctAnswer": 1
+        },
+        {
+          "id": 10,
+          "question": "Faylni saqlash uchun odatda qaysi tugmalar birikmasi ishlatiladi?",
+          "options": ["Ctrl + A", "Ctrl + P", "Ctrl + S", "Ctrl + F"],
+          "correctAnswer": 2
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Ona tili",
+      "icon": "book-open",
+      "questions": [
+        {
+          "id": 1,
+          "question": "O'zbek tilida nechta unli harf mavjud?",
+          "options": ["5 ta", "6 ta", "7 ta", "8 ta"],
+          "correctAnswer": 1
+        },
+        {
+          "id": 2,
+          "question": "Ot so'z turkumi nimani bildiradi?",
+          "options": [
+            "Harakatni",
+            "Belgini",
+            "Shaxs, narsa yoki joy nomini",
+            "Harakatning belgisini"
+          ],
+          "correctAnswer": 2
+        },
+        {
+          "id": 3,
+          "question": "'Chiroyli' so'zi qaysi so'z turkumiga kiradi?",
+          "options": ["Ot", "Sifat", "Fe'l", "Olmosh"],
+          "correctAnswer": 1
+        },
+        {
+          "id": 4,
+          "question": "Fe'l nimani bildiradi?",
+          "options": [
+            "Narsa nomini",
+            "Belgini",
+            "Harakat yoki holatni",
+            "Miqdorni"
+          ],
+          "correctAnswer": 2
+        },
+        {
+          "id": 5,
+          "question": "Qaysi qatorda sinonim so'zlar berilgan?",
+          "options": [
+            "Katta — kichik",
+            "Chiroyli — go'zal",
+            "Issiq — sovuq",
+            "Kunduz — tun"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": 6,
+          "question": "Qaysi qatorda antonim so'zlar berilgan?",
+          "options": [
+            "Go'zal — chiroyli",
+            "Tez — ildam",
+            "Oq — qora",
+            "Yuz — bet"
+          ],
+          "correctAnswer": 2
+        },
+        {
+          "id": 7,
+          "question": "Gapning bosh bo'laklari qaysilar?",
+          "options": [
+            "Aniqlovchi va to'ldiruvchi",
+            "Ega va kesim",
+            "Hol va aniqlovchi",
+            "To'ldiruvchi va hol"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": 8,
+          "question": "Kishilik olmoshi qaysi qatorda berilgan?",
+          "options": ["Kitob", "Yugurmoq", "Men", "Chiroyli"],
+          "correctAnswer": 2
+        },
+        {
+          "id": 9,
+          "question": "Darak gap oxiriga odatda qaysi tinish belgisi qo'yiladi?",
+          "options": ["So'roq belgisi", "Undov belgisi", "Nuqta", "Vergul"],
+          "correctAnswer": 2
+        },
+        {
+          "id": 10,
+          "question": "Qaysi so'z to'g'ri yozilgan?",
+          "options": ["Ma'suliyat", "Masuliyat", "Mas'uliyat", "Ma'sulyat"],
+          "correctAnswer": 2
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Tarix",
+      "icon": "landmark",
+      "questions": [
+        {
+          "id": 1,
+          "question": "O'zbekiston mustaqilligi qachon e'lon qilingan?",
+          "options": [
+            "1990-yil 21-mart",
+            "1991-yil 31-avgust",
+            "1991-yil 1-sentabr",
+            "1992-yil 8-dekabr"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": 2,
+          "question": "Amir Temur qachon tug'ilgan?",
+          "options": ["1336-yil", "1405-yil", "1220-yil", "1441-yil"],
+          "correctAnswer": 0
+        },
+        {
+          "id": 3,
+          "question": "O'zbekiston Respublikasining Konstitutsiyasi ilk bor qachon qabul qilingan?",
+          "options": [
+            "1991-yil 31-avgust",
+            "1992-yil 8-dekabr",
+            "1993-yil 1-sentabr",
+            "1995-yil 9-may"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": 4,
+          "question": "Qadimgi Misr sivilizatsiyasi qaysi daryo bo'yida rivojlangan?",
+          "options": ["Amazonka", "Nil", "Volga", "Amudaryo"],
+          "correctAnswer": 1
+        },
+        {
+          "id": 5,
+          "question": "Buyuk Ipak yo'li asosan nimaga xizmat qilgan?",
+          "options": [
+            "Faqat urush olib borishga",
+            "Savdo va madaniy aloqalarga",
+            "Faqat dehqonchilikka",
+            "Dengiz sayohatlariga"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": 6,
+          "question": "Zahiriddin Muhammad Bobur qaysi davlatga asos solgan?",
+          "options": [
+            "Usmonli imperiyasi",
+            "Boburiylar imperiyasi",
+            "Rim imperiyasi",
+            "Sosoniylar davlati"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": 7,
+          "question": "Jaloliddin Manguberdi kim bo'lgan?",
+          "options": [
+            "Xorazmshohlar davlatining hukmdori",
+            "Rim imperatori",
+            "Fransiya qiroli",
+            "Misr fir'avni"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": 8,
+          "question": "Samarqanddagi Registon majmuasi qaysi shaharda joylashgan?",
+          "options": ["Buxoro", "Xiva", "Samarqand", "Termiz"],
+          "correctAnswer": 2
+        },
+        {
+          "id": 9,
+          "question": "Ikkinchi jahon urushi qaysi yilda tugagan?",
+          "options": ["1939-yil", "1941-yil", "1945-yil", "1950-yil"],
+          "correctAnswer": 2
+        },
+        {
+          "id": 10,
+          "question": "Mirzo Ulug'bek tarixda asosan qaysi sohaga qo'shgan hissasi bilan mashhur?",
+          "options": ["Astronomiya", "Rassomlik", "Dengizchilik", "Tibbiyot"],
+          "correctAnswer": 0
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Geografiya",
+      "icon": "globe",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Dunyodagi eng katta okean qaysi?",
+          "options": [
+            "Atlantika okeani",
+            "Hind okeani",
+            "Shimoliy Muz okeani",
+            "Tinch okeani"
+          ],
+          "correctAnswer": 3
+        },
+        {
+          "id": 2,
+          "question": "O'zbekiston qaysi mintaqada joylashgan?",
+          "options": [
+            "Janubiy Amerika",
+            "Markaziy Osiyo",
+            "Shimoliy Afrika",
+            "G'arbiy Yevropa"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": 3,
+          "question": "Dunyodagi eng katta materik qaysi?",
+          "options": ["Afrika", "Shimoliy Amerika", "Yevrosiyo", "Avstraliya"],
+          "correctAnswer": 2
+        },
+        {
+          "id": 4,
+          "question": "Yerning tabiiy yo'ldoshi qaysi?",
+          "options": ["Mars", "Oy", "Quyosh", "Venera"],
+          "correctAnswer": 1
+        },
+        {
+          "id": 5,
+          "question": "O'zbekistonning poytaxti qaysi shahar?",
+          "options": ["Samarqand", "Buxoro", "Toshkent", "Namangan"],
+          "correctAnswer": 2
+        },
+        {
+          "id": 6,
+          "question": "Dunyodagi eng baland tog' cho'qqisi qaysi?",
+          "options": ["K2", "Everest", "Elbrus", "Kilimanjaro"],
+          "correctAnswer": 1
+        },
+        {
+          "id": 7,
+          "question": "Yer yuzasining katta qismini nima egallaydi?",
+          "options": ["O'rmonlar", "Cho'llar", "Suv", "Tog'lar"],
+          "correctAnswer": 2
+        },
+        {
+          "id": 8,
+          "question": "Qaysi davlat hududi bo'yicha dunyodagi eng katta davlat hisoblanadi?",
+          "options": ["Kanada", "Xitoy", "AQSH", "Rossiya"],
+          "correctAnswer": 3
+        },
+        {
+          "id": 9,
+          "question": "Nil daryosi qaysi qit'ada joylashgan?",
+          "options": ["Osiyo", "Afrika", "Yevropa", "Janubiy Amerika"],
+          "correctAnswer": 1
+        },
+        {
+          "id": 10,
+          "question": "Yer sharini Shimoliy va Janubiy yarimsharlarga ajratuvchi chiziq nima deb ataladi?",
+          "options": [
+            "Bosh meridian",
+            "Ekvator",
+            "Tropik chizig'i",
+            "Qutb doirasi"
+          ],
+          "correctAnswer": 1
+        }
+      ]
+    }
+  ]
+}
